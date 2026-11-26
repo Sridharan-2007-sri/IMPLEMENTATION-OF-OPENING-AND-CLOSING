@@ -72,7 +72,7 @@ image = np.zeros((500, 500, 3), dtype=np.uint8)
 
 # Add text on the image using cv2.putText
 font = cv2.FONT_HERSHEY_SIMPLEX
-cv2.putText(image, 'Open and Close', (100, 250), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
+cv2.putText(image, 'Sridharan B', (100, 250), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
 
 # Create a simple square kernel (3x3)
 kernel = np.ones((3, 3), np.uint8)
@@ -98,16 +98,19 @@ closed_image = cv2.morphologyEx(image, cv2.MORPH_CLOSE, kernel)
 
 **Input Image**
 
-<Figure size 640x480 with 1 Axes><img width="389" height="410" alt="image" src="https://github.com/user-attachments/assets/f887185b-ee5c-4c0a-b021-889dca291867" />
+<Figure size 640x480 with 1 Axes><img width="389" height="410" alt="image" src="https://github.com/user-attachments/assets/55b02e04-2c34-44c9-9af4-7cfc6eb7a7a6" />
+
 
 
 **Opening Operation**
 
-<Figure size 640x480 with 1 Axes><img width="389" height="410" alt="image" src="https://github.com/user-attachments/assets/0cc92207-0bfb-4a2d-ac62-b7de8ee9f0ac" />
+<Figure size 640x480 with 1 Axes><img width="389" height="410" alt="image" src="https://github.com/user-attachments/assets/c1222348-27ca-4e88-ac82-16a136bca72d" />
+
 
 **Closing Operation**
 
-<Figure size 640x480 with 1 Axes><img width="389" height="410" alt="image" src="https://github.com/user-attachments/assets/28933960-677b-44f5-9b9b-f2ed2bd8d90a" />
+<img width="358" height="365" alt="image" src="https://github.com/user-attachments/assets/cd8fe8bc-fd8c-4e4d-a43a-c520aca3bd18" />
+
 
 ## Result
 
